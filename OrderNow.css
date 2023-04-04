@@ -1,0 +1,78 @@
+html, body{
+    background-color: bisque;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 40px;
+    letter-spacing: 20px;
+    color:whitesmoke;
+    background-color: orangered;
+    }
+
+nav{
+    list-style-type: none;
+    border: 6px solid orangered;
+    background-color: white;
+    font-size: larger;
+    
+}
+
+li{
+    display: inline-block;
+    padding-right: 15%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item{
+    width: 100px;
+}
+
+.Smedia{
+    width: 70px;
+    height: 70px;
+}
+
+
+/* here is mobile */
+
+@media (min-width:320px) {
+    h1, h2, p{
+        background-color: red;
+
+    }
+    
+}
+
+/* here is for tablet - portriat */
+
+@media (min-width:768px) {
+    h1, h2, p{
+        background-color: orange;
+
+    }
+    
+}
+
+/* here is for landscap tablet */
+@media (min-width:1024px) {
+    h1, h2, p{
+        background-color: red;
+
+    }
+    
+}
+
+/* here is for desktop */
+@media (min-width:1224px) {
+    h1, h2, p{
+        background-color: orangered;
+
+    }
+    
+}

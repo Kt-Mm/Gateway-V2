@@ -1,0 +1,84 @@
+html, body{
+    background-image: url(background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* Here I am styling my navbar */
+nav{
+    list-style-type: none;
+    border: 6px solid orangered;
+    background-color: white;
+    font-size: larger;
+    
+}
+
+/* here I am styling my unorder list for navbar */
+
+
+
+li{
+    display: inline-block;
+    padding-right: 15%;
+}
+
+h1{
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 5px solid brown;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    background-color: orangered;
+    display: inline-block;
+    padding-right: 20%;
+    color: white;
+}
+
+p{
+    border-bottom: 5px solid brown;
+    color: white;
+    font-size: 28px;
+}
+.Smedia{
+    width: 70px;
+    height: 70px;
+}
+
+/* here is mobile */
+
+@media (min-width:320px) {
+  
+    
+}
+
+/* here is for tablet - portriat */
+
+@media (min-width:768px) {
+    
+
+    }
+    
+
+
+/* here is for landscap tablet */
+@media (min-width:1024px) {
+    
+    
+}
+
+/* here is for desktop */
+@media (min-width:1224px) {
+    
+    
+}
+
